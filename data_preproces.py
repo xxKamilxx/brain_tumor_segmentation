@@ -9,8 +9,8 @@ import pickle
 import cv2
 import os
 import natsort
-src="C:/Users/kamil/Desktop/MLnauka/brain tumor dataset"
 
+src="C:/Users/kamil/Desktop/MLnauka/brain tumor dataset"
 img_list=os.listdir(src)
 srt_list=natsort.natsorted(img_list)
 images,masks=[],[]
