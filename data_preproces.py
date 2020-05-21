@@ -1,26 +1,12 @@
-import matplotlib.pyplot as plt
-from keras.layers import Input, BatchNormalization, Activation, Dense, Dropout
-from keras.layers.core import Lambda, RepeatVector, Reshape
-from keras.layers.convolutional import Conv2D, Conv2DTranspose
-from keras.layers.pooling import MaxPooling2D, GlobalMaxPool2D
-from keras.layers.merge import concatenate, add
-from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
-from keras.optimizers import Adam
-from keras.preprocessing.image import ImageDataGenerator
-from skimage.transform import resize
-from keras.models import Model, load_model
-from skimage.morphology import label
+
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from skimage.transform import resize
 from keras.models import Model, load_model
-from skimage.morphology import label
 from sklearn.model_selection import train_test_split
 import numpy as np
 import pickle
 import cv2
-import glob
-import random
 import os
 import natsort
 src="C:/Users/kamil/Desktop/MLnauka/brain tumor dataset"
