@@ -3,7 +3,7 @@
 This repository provides code to brain tumor segmentation. Network architecture is U-net with dice loss as loss function.
 Model has been implemented with few additional metrics:  precision, recall, f1 score, mean iou and dice score.
 
-![Segmentation result](Figure_2.png)
+![Segmentation result](Figure_2.png){:height="60%" width="60%"}
 
 ## Technologies
 - Python 3.6
